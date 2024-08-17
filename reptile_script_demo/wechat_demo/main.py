@@ -26,9 +26,9 @@ while True:
         # 获取会话列表
         who = 'yefan'
         wx.ChatWith(who=who)
-        # 向某人发送消息（以`文件传输助手`为例）
+        # 向某人发送消息
         msg = '早' 
-        wx.SendMsg(msg, who) # 向`文件传输助手`发送消息：你好~
+        wx.SendMsg(msg, who) 
         # 切换到通讯录页面
         wx.SwitchToChat()
         time.sleep(2)
